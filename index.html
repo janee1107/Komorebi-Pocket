@@ -1,0 +1,1368 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="theme-color" content="#FBF8F1">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <meta name="apple-mobile-web-app-title" content="口袋之森">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <link rel="icon" type="image/png" href="icons/icon-192.png">
+  <title>口袋之森 Komorebi Pocket</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@500;700;800;900&family=Zen+Kaku+Gothic+New:wght@500;700;900&display=swap" rel="stylesheet">
+
+  <style>
+*,:after,:before{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgba(59,130,246,.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/*! tailwindcss v3.4.17 | MIT License | https://tailwindcss.com*/*,:after,:before{box-sizing:border-box;border:0 solid #e5e7eb}:after,:before{--tw-content:""}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;-o-tab-size:4;tab-size:4;font-family:Zen Kaku Gothic New,M PLUS Rounded\ 1c,system-ui,sans-serif;font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace,SFMono-Regular,Menlo,Monaco,Consolas,Liberation Mono,Courier New,monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0}fieldset,legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::-moz-placeholder,textarea::-moz-placeholder{opacity:1;color:#9ca3af}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width:640px){.container{max-width:640px}}@media (min-width:768px){.container{max-width:768px}}@media (min-width:1024px){.container{max-width:1024px}}@media (min-width:1280px){.container{max-width:1280px}}@media (min-width:1536px){.container{max-width:1536px}}.pointer-events-none{pointer-events:none}.pointer-events-auto{pointer-events:auto}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.sticky{position:sticky}.inset-0{inset:0}.inset-x-5{left:1.25rem;right:1.25rem}.left-1\/2{left:50%}.left-3\.5{left:.875rem}.right-0{right:0}.top-0{top:0}.top-1\/2{top:50%}.top-16{top:4rem}.z-0{z-index:0}.z-10{z-index:10}.z-20{z-index:20}.z-50{z-index:50}.z-\[60\]{z-index:60}.my-4{margin-top:1rem;margin-bottom:1rem}.mb-1{margin-bottom:.25rem}.mb-1\.5{margin-bottom:.375rem}.mb-2{margin-bottom:.5rem}.ml-1{margin-left:.25rem}.mt-0\.5{margin-top:.125rem}.mt-1{margin-top:.25rem}.mt-1\.5{margin-top:.375rem}.mt-2\.5{margin-top:.625rem}.mt-3{margin-top:.75rem}.mt-3\.5{margin-top:.875rem}.mt-4{margin-top:1rem}.mt-5{margin-top:1.25rem}.mt-6{margin-top:1.5rem}.block{display:block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-11{height:2.75rem}.h-24{height:6rem}.h-3{height:.75rem}.h-3\.5{height:.875rem}.h-32{height:8rem}.h-4{height:1rem}.h-5{height:1.25rem}.h-8{height:2rem}.h-9{height:2.25rem}.h-\[52px\]{height:52px}.h-\[78px\]{height:78px}.h-full{height:100%}.max-h-\[78vh\]{max-height:78vh}.max-h-\[85vh\]{max-height:85vh}.min-h-\[16px\]{min-height:16px}.min-h-screen{min-height:100vh}.w-11{width:2.75rem}.w-3{width:.75rem}.w-3\.5{width:.875rem}.w-32{width:8rem}.w-4{width:1rem}.w-5{width:1.25rem}.w-8{width:2rem}.w-9{width:2.25rem}.w-\[210px\]{width:210px}.w-\[52px\]{width:52px}.w-full{width:100%}.min-w-0{min-width:0}.max-w-\[430px\]{max-width:430px}.max-w-\[60\%\]{max-width:60%}.flex-1{flex:1 1 0%}.flex-shrink{flex-shrink:1}.flex-shrink-0{flex-shrink:0}.-translate-y-1\/2{--tw-translate-y:-50%}.-translate-y-1\/2,.translate-y-full{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.translate-y-full{--tw-translate-y:100%}.transform{transform:translate(var(--tw-translate-x),var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.select-none{-webkit-user-select:none;-moz-user-select:none;user-select:none}.grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}.flex-col{flex-direction:column}.items-end{align-items:flex-end}.items-center{align-items:center}.items-baseline{align-items:baseline}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-1{gap:.25rem}.gap-1\.5{gap:.375rem}.gap-2{gap:.5rem}.gap-2\.5{gap:.625rem}.gap-3{gap:.75rem}.gap-4{gap:1rem}.space-y-1\.5>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.375rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.375rem*var(--tw-space-y-reverse))}.space-y-2>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.5rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.5rem*var(--tw-space-y-reverse))}.space-y-3>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(.75rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(.75rem*var(--tw-space-y-reverse))}.space-y-4>:not([hidden])~:not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem*(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem*var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-visible{overflow:visible}.overflow-y-auto{overflow-y:auto}.truncate{overflow:hidden;text-overflow:ellipsis}.truncate,.whitespace-nowrap{white-space:nowrap}.rounded{border-radius:.25rem}.rounded-2xl{border-radius:1rem}.rounded-3xl{border-radius:1.5rem}.rounded-full{border-radius:9999px}.rounded-md{border-radius:.375rem}.rounded-xl{border-radius:.75rem}.rounded-t-\[36px\]{border-top-left-radius:36px;border-top-right-radius:36px}.border{border-width:1px}.border-2{border-width:2px}.border-b{border-bottom-width:1px}.border-l{border-left-width:1px}.border-r{border-right-width:1px}.border-t{border-top-width:1px}.border-t-2{border-top-width:2px}.border-ghibli-moss{--tw-border-opacity:1;border-color:rgb(62 92 67/var(--tw-border-opacity,1))}.border-ghibli-moss\/10{border-color:rgba(62,92,67,.1)}.border-ghibli-moss\/15{border-color:rgba(62,92,67,.15)}.border-ghibli-moss\/20{border-color:rgba(62,92,67,.2)}.border-ghibli-moss\/25{border-color:rgba(62,92,67,.25)}.border-ghibli-moss\/30{border-color:rgba(62,92,67,.3)}.border-ghibli-sun\/30{border-color:rgba(230,166,62,.3)}.border-ghibli-terracotta{--tw-border-opacity:1;border-color:rgb(200 106 75/var(--tw-border-opacity,1))}.border-ghibli-terracotta\/30{border-color:rgba(200,106,75,.3)}.border-ghibli-wood\/10{border-color:rgba(74,59,50,.1)}.border-ghibli-wood\/15{border-color:rgba(74,59,50,.15)}.border-ghibli-wood\/20{border-color:rgba(74,59,50,.2)}.border-white\/25{border-color:hsla(0,0%,100%,.25)}.bg-ghibli-cream{--tw-bg-opacity:1;background-color:rgb(251 248 241/var(--tw-bg-opacity,1))}.bg-ghibli-moss{--tw-bg-opacity:1;background-color:rgb(62 92 67/var(--tw-bg-opacity,1))}.bg-ghibli-paleLeaf{--tw-bg-opacity:1;background-color:rgb(237 244 236/var(--tw-bg-opacity,1))}.bg-ghibli-paleLeaf\/40{background-color:rgba(237,244,236,.4)}.bg-ghibli-paleLeaf\/50{background-color:rgba(237,244,236,.5)}.bg-ghibli-paleLeaf\/60{background-color:rgba(237,244,236,.6)}.bg-ghibli-paleLeaf\/90{background-color:rgba(237,244,236,.9)}.bg-ghibli-sunSoft\/70{background-color:hsla(40,88%,93%,.7)}.bg-ghibli-terraSoft{--tw-bg-opacity:1;background-color:rgb(251 240 236/var(--tw-bg-opacity,1))}.bg-ghibli-terracotta{--tw-bg-opacity:1;background-color:rgb(200 106 75/var(--tw-bg-opacity,1))}.bg-ghibli-woodDark{--tw-bg-opacity:1;background-color:rgb(44 34 28/var(--tw-bg-opacity,1))}.bg-ghibli-woodDark\/60{background-color:rgba(44,34,28,.6)}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.bg-white\/85{background-color:hsla(0,0%,100%,.85)}.bg-white\/90{background-color:hsla(0,0%,100%,.9)}.bg-white\/95{background-color:hsla(0,0%,100%,.95)}.fill-ghibli-leaf{fill:#5b8266}.fill-ghibli-sun{fill:#e6a63e}.fill-ghibli-wood{fill:#4a3b32}.p-0{padding:0}.p-0\.5{padding:.125rem}.p-1{padding:.25rem}.p-3{padding:.75rem}.p-3\.5{padding:.875rem}.p-4{padding:1rem}.p-5{padding:1.25rem}.p-6{padding:1.5rem}.px-0\.5{padding-left:.125rem;padding-right:.125rem}.px-1{padding-left:.25rem;padding-right:.25rem}.px-1\.5{padding-left:.375rem;padding-right:.375rem}.px-2{padding-left:.5rem;padding-right:.5rem}.px-2\.5{padding-left:.625rem;padding-right:.625rem}.px-3{padding-left:.75rem;padding-right:.75rem}.px-3\.5{padding-left:.875rem;padding-right:.875rem}.px-4{padding-left:1rem;padding-right:1rem}.px-5{padding-left:1.25rem;padding-right:1.25rem}.py-0\.5{padding-top:.125rem;padding-bottom:.125rem}.py-1{padding-top:.25rem;padding-bottom:.25rem}.py-1\.5{padding-top:.375rem;padding-bottom:.375rem}.py-2{padding-top:.5rem;padding-bottom:.5rem}.py-2\.5{padding-top:.625rem;padding-bottom:.625rem}.py-3{padding-top:.75rem;padding-bottom:.75rem}.py-3\.5{padding-top:.875rem;padding-bottom:.875rem}.py-6{padding-top:1.5rem;padding-bottom:1.5rem}.py-px{padding-top:1px;padding-bottom:1px}.pb-1{padding-bottom:.25rem}.pb-2{padding-bottom:.5rem}.pb-3{padding-bottom:.75rem}.pl-12{padding-left:3rem}.pl-2\.5{padding-left:.625rem}.pl-4{padding-left:1rem}.pr-3{padding-right:.75rem}.pr-4{padding-right:1rem}.pt-0{padding-top:0}.pt-1\.5{padding-top:.375rem}.pt-6{padding-top:1.5rem}.text-center{text-align:center}.text-right{text-align:right}.font-round{font-family:M PLUS Rounded\ 1c,Zen Kaku Gothic New,sans-serif}.text-\[10px\]{font-size:10px}.text-\[11px\]{font-size:11px}.text-\[9px\]{font-size:9px}.text-base{font-size:1rem;line-height:1.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:.75rem;line-height:1rem}.font-black{font-weight:900}.font-bold{font-weight:700}.font-extrabold{font-weight:800}.font-medium{font-weight:500}.uppercase{text-transform:uppercase}.leading-relaxed{line-height:1.625}.leading-snug{line-height:1.375}.tracking-tight{letter-spacing:-.025em}.tracking-wide{letter-spacing:.025em}.tracking-wider{letter-spacing:.05em}.tracking-widest{letter-spacing:.1em}.text-ghibli-leaf{--tw-text-opacity:1;color:rgb(91 130 102/var(--tw-text-opacity,1))}.text-ghibli-moss{--tw-text-opacity:1;color:rgb(62 92 67/var(--tw-text-opacity,1))}.text-ghibli-sun{--tw-text-opacity:1;color:rgb(230 166 62/var(--tw-text-opacity,1))}.text-ghibli-terracotta{--tw-text-opacity:1;color:rgb(200 106 75/var(--tw-text-opacity,1))}.text-ghibli-wood{--tw-text-opacity:1;color:rgb(74 59 50/var(--tw-text-opacity,1))}.text-ghibli-wood\/60{color:rgba(74,59,50,.6)}.text-ghibli-wood\/70{color:rgba(74,59,50,.7)}.text-ghibli-woodDark{--tw-text-opacity:1;color:rgb(44 34 28/var(--tw-text-opacity,1))}.text-white{--tw-text-opacity:1;color:rgb(255 255 255/var(--tw-text-opacity,1))}.opacity-0{opacity:0}.opacity-80{opacity:.8}.shadow-2xl{--tw-shadow:0 25px 50px -12px rgba(0,0,0,.25);--tw-shadow-colored:0 25px 50px -12px var(--tw-shadow-color)}.shadow-2xl,.shadow-lg{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-lg{--tw-shadow:0 10px 15px -3px rgba(0,0,0,.1),0 4px 6px -4px rgba(0,0,0,.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color),0 4px 6px -4px var(--tw-shadow-color)}.shadow-md{--tw-shadow:0 4px 6px -1px rgba(0,0,0,.1),0 2px 4px -2px rgba(0,0,0,.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color),0 2px 4px -2px var(--tw-shadow-color)}.shadow-md,.shadow-sm{box-shadow:var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow)}.shadow-sm{--tw-shadow:0 1px 2px 0 rgba(0,0,0,.05);--tw-shadow-colored:0 1px 2px 0 var(--tw-shadow-color)}.blur{--tw-blur:blur(8px)}.blur,.filter{filter:var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow)}.backdrop-filter{-webkit-backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia);backdrop-filter:var(--tw-backdrop-blur) var(--tw-backdrop-brightness) var(--tw-backdrop-contrast) var(--tw-backdrop-grayscale) var(--tw-backdrop-hue-rotate) var(--tw-backdrop-invert) var(--tw-backdrop-opacity) var(--tw-backdrop-saturate) var(--tw-backdrop-sepia)}.transition{transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,-webkit-backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter;transition-property:color,background-color,border-color,text-decoration-color,fill,stroke,opacity,box-shadow,transform,filter,backdrop-filter,-webkit-backdrop-filter;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-all{transition-property:all;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-opacity{transition-property:opacity;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(.4,0,.2,1);transition-duration:.15s}.duration-300{transition-duration:.3s}.duration-700{transition-duration:.7s}.ease-in-out{transition-timing-function:cubic-bezier(.4,0,.2,1)}.ease-out{transition-timing-function:cubic-bezier(0,0,.2,1)}.last\:border-0:last-child{border-width:0}.hover\:bg-ghibli-moss\/20:hover{background-color:rgba(62,92,67,.2)}.hover\:bg-ghibli-moss\/90:hover{background-color:rgba(62,92,67,.9)}.hover\:bg-ghibli-paleLeaf:hover{--tw-bg-opacity:1;background-color:rgb(237 244 236/var(--tw-bg-opacity,1))}.hover\:bg-ghibli-woodDark:hover{--tw-bg-opacity:1;background-color:rgb(44 34 28/var(--tw-bg-opacity,1))}.hover\:bg-white:hover{--tw-bg-opacity:1;background-color:rgb(255 255 255/var(--tw-bg-opacity,1))}.hover\:text-ghibli-moss:hover{--tw-text-opacity:1;color:rgb(62 92 67/var(--tw-text-opacity,1))}.hover\:text-ghibli-terracotta:hover{--tw-text-opacity:1;color:rgb(200 106 75/var(--tw-text-opacity,1))}.hover\:text-ghibli-wood:hover{--tw-text-opacity:1;color:rgb(74 59 50/var(--tw-text-opacity,1))}.hover\:underline:hover{text-decoration-line:underline}.hover\:opacity-95:hover{opacity:.95}.focus\:border-ghibli-moss:focus{--tw-border-opacity:1;border-color:rgb(62 92 67/var(--tw-border-opacity,1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}@media (min-width:640px){.sm\:rounded-\[44px\]{border-radius:44px}.sm\:border-\[8px\]{border-width:8px}.sm\:border-ghibli-woodDark{--tw-border-opacity:1;border-color:rgb(44 34 28/var(--tw-border-opacity,1))}.sm\:p-4{padding:1rem}}
+    * { -webkit-tap-highlight-color: transparent; }
+    /* 只鎖按鈕與畫面文字的選取，輸入框保留可選取（iOS 上全域 user-select:none 會讓輸入框難以操作） */
+    body { -webkit-user-select: none; user-select: none; }
+    input, textarea, select { -webkit-user-select: text; user-select: text; }
+    /* 輸入框字級 ≥16px，避免 iOS 聚焦時自動放大畫面 */
+    input, select { font-size: 16px !important; }
+
+    body {
+      background-color: #1F2821;
+      font-family: 'Zen Kaku Gothic New', sans-serif;
+      color: #2C221C;
+    }
+
+    /* 手機用 dvh，避免網址列遮住底部按鈕 */
+    .app-shell { height: 100vh; height: 100dvh; }
+    @media (min-width: 640px) { .app-shell { height: 900px; max-height: calc(100vh - 32px); } }
+
+    /* 主舞台是可捲動的 flex 欄：子元素不可被壓縮，否則小螢幕上錢袋卡片會被擠扁裁掉 */
+    main > * { flex-shrink: 0; }
+
+    .shadow-xs { box-shadow: 0 1px 2px rgba(44, 34, 28, 0.06); }
+    .backdrop-blur-xs { backdrop-filter: blur(2px); -webkit-backdrop-filter: blur(2px); }
+    .safe-bottom { bottom: calc(20px + env(safe-area-inset-bottom)); }
+    .sheet-pad-bottom { padding-bottom: calc(24px + env(safe-area-inset-bottom)); }
+
+    .komorebi-canvas {
+      background-color: #FBF8F1;
+      background-image:
+        radial-gradient(circle at 85% 12%, rgba(230, 166, 62, 0.45) 0%, transparent 45%),
+        radial-gradient(circle at 12% 28%, rgba(127, 168, 163, 0.25) 0%, transparent 50%),
+        radial-gradient(circle at 75% 80%, rgba(91, 130, 102, 0.22) 0%, transparent 55%),
+        radial-gradient(rgba(44, 34, 28, 0.032) 1px, transparent 1px);
+      background-size: 100% 100%, 100% 100%, 100% 100%, 18px 18px;
+    }
+
+    .no-scroll::-webkit-scrollbar { display: none; }
+    .no-scroll { -ms-overflow-style: none; scrollbar-width: none; }
+
+    .ghibli-tap { transition: transform 0.12s cubic-bezier(0.34, 1.56, 0.64, 1), filter 0.12s ease; }
+    .ghibli-tap:active { transform: scale(0.95); filter: brightness(0.96); }
+    button:disabled { opacity: 0.45; cursor: not-allowed; }
+    button:disabled:active { transform: none; filter: none; }
+
+    @keyframes cozyBreathe {
+      0%, 100% { transform: translateY(0) scale(1); }
+      50% { transform: translateY(-1.5px) scale(1.015); }
+    }
+    .mascot-breathe { animation: cozyBreathe 3.6s ease-in-out infinite; transform-origin: 50% 90%; }
+
+    @keyframes leafWiggle {
+      0%, 100% { transform: translate(32px, 20px) rotate(0deg); }
+      25% { transform: translate(32px, 20px) rotate(4deg); }
+      75% { transform: translate(32px, 20px) rotate(-3deg); }
+    }
+    .leaf-wiggle { animation: leafWiggle 3s ease-in-out infinite; transform-box: view-box; }
+
+    /* 吉祥物被點時的小跳躍 */
+    @keyframes mascotHop {
+      0% { transform: translateY(0); }
+      35% { transform: translateY(-6px) scale(1.06); }
+      70% { transform: translateY(0) scale(0.98); }
+      100% { transform: translateY(0) scale(1); }
+    }
+    .mascot-hop { animation: mascotHop 0.5s cubic-bezier(0.34, 1.56, 0.64, 1); }
+
+    /* Toast：淡入 → 停留 → 淡出；時長由 JS 控制 */
+    @keyframes floatUpFade {
+      0% { opacity: 0; transform: translate(-50%, 16px) scale(0.92); }
+      8% { opacity: 1; transform: translate(-50%, 0) scale(1.04); }
+      12% { transform: translate(-50%, 0) scale(1); }
+      88% { opacity: 1; transform: translate(-50%, -4px) scale(1); }
+      100% { opacity: 0; transform: translate(-50%, -24px) scale(0.94); }
+    }
+    .toast-float { animation: floatUpFade var(--toast-dur, 2.6s) cubic-bezier(0.2, 0.8, 0.25, 1) forwards; }
+
+    @keyframes floatSeed {
+      0% { transform: translate(0, 0) rotate(0deg); opacity: 0.9; }
+      50% { transform: translate(4px, -12px) rotate(10deg); opacity: 0.6; }
+      100% { transform: translate(10px, -24px) rotate(20deg); opacity: 0; }
+    }
+    .seed-float { animation: floatSeed 3.2s ease-out infinite; transform-box: fill-box; }
+
+
+    /* 木漏れ日光斑與小樹枝 */
+    .komo-dapple { position: absolute; border-radius: 50%; background: radial-gradient(closest-side, rgba(255, 226, 160, .75), rgba(255, 226, 160, 0)); animation: dappleBreathe 12s ease-in-out infinite; }
+    @keyframes dappleBreathe { 0%,100% { transform: translate(0,0) scale(1); opacity: .55; } 50% { transform: translate(-8px,6px) scale(1.12); opacity: 1; } }
+    .komo-leaf { animation: leafHang 4.8s ease-in-out infinite; animation-delay: var(--o, 0s); transform-box: view-box; }
+    @keyframes leafHang { 0%,100% { transform: rotate(-5deg); } 50% { transform: rotate(6deg); } }
+
+    /* 錢袋動畫：輕輕擺動、液面晃動、光點上浮、絨毛飄走 */
+    .bag-sway { animation: bagSway 5.5s ease-in-out infinite; transform-origin: 60px 40px; transform-box: view-box; }
+    @keyframes bagSway { 0%,100% { transform: rotate(-1.4deg); } 50% { transform: rotate(1.4deg); } }
+    .bag-wave-a { animation: waveDrift 6s ease-in-out infinite; }
+    .bag-wave-b { animation: waveDrift 8s ease-in-out infinite reverse; }
+    @keyframes waveDrift { 0%,100% { transform: translateX(0); } 50% { transform: translateX(-18px); } }
+    .bag-mote { animation: moteRise 4.2s ease-in-out infinite; transform-box: fill-box; opacity: 0; }
+    @keyframes moteRise { 0% { transform: translateY(6px); opacity: 0; } 30% { opacity: .95; } 100% { transform: translateY(-14px); opacity: 0; } }
+    .bag-seed { animation: seedDrift 5s ease-out infinite; opacity: 0; }
+    @keyframes seedDrift { 0% { transform: translate(0,0) rotate(0); opacity: 0; } 15% { opacity: 1; } 100% { transform: translate(22px,-30px) rotate(25deg); opacity: 0; } }
+    .bag-sprout { animation: sproutSway 3.4s ease-in-out infinite; transform-origin: 0 0; }
+    @keyframes sproutSway { 0%,100% { transform: rotate(-4deg); } 50% { transform: rotate(5deg); } }
+    .bag-twinkle { animation: twinkle 2.4s ease-in-out infinite; transform-origin: 60px 81px; transform-box: view-box; }
+    @keyframes twinkle { 0%,100% { transform: scale(.85); opacity: .7; } 50% { transform: scale(1.1); opacity: 1; } }
+    .bag-bounce { animation: bagBounce .7s cubic-bezier(.34,1.56,.64,1); transform-origin: 50% 90%; }
+    @keyframes bagBounce { 0% { transform: scale(1); } 25% { transform: scale(1.06,.94); } 55% { transform: scale(.97,1.04) translateY(-3px); } 100% { transform: scale(1); } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .mascot-breathe, .leaf-wiggle, .seed-float, .mascot-hop, .bag-sway, .bag-wave-a, .bag-wave-b, .bag-sprout, .bag-twinkle, .bag-bounce, .komo-dapple, .komo-leaf { animation: none !important; }
+      .bag-mote, .bag-seed { animation: none !important; opacity: .8; }
+      .toast-float { animation-name: none; opacity: 1; transform: translate(-50%, 0); }
+    }
+  </style>
+</head>
+<body class="min-h-screen flex items-center justify-center p-0 sm:p-4">
+
+  <div class="app-shell w-full max-w-[430px] komorebi-canvas sm:rounded-[44px] shadow-2xl flex flex-col relative overflow-hidden sm:border-[8px] sm:border-ghibli-woodDark">
+
+    <!-- 木漏れ日：葉縫間灑下、緩慢呼吸的柔光斑 -->
+    <div class="absolute inset-0 pointer-events-none z-0 overflow-hidden" aria-hidden="true">
+      <span class="komo-dapple" style="top:-30px; right:-20px; width:180px; height:150px; animation-delay:0s"></span>
+      <span class="komo-dapple" style="top:90px; right:70px; width:70px; height:56px; animation-delay:-3s"></span>
+      <span class="komo-dapple" style="top:30px; left:110px; width:90px; height:70px; animation-delay:-6s; opacity:.5"></span>
+      <span class="komo-dapple" style="top:420px; left:-30px; width:140px; height:110px; animation-delay:-9s; opacity:.45"></span>
+    </div>
+
+    <!-- 從右上角垂下的手繪小樹枝（與錢袋同一套暖栗色線稿＋水彩葉） -->
+    <svg class="absolute top-0 right-0 w-[210px] h-[78px] pointer-events-none z-0 overflow-visible" viewBox="0 0 210 78" aria-hidden="true">
+      <defs>
+        <filter id="branchInk" x="-5%" y="-20%" width="110%" height="140%">
+          <feTurbulence type="fractalNoise" baseFrequency="0.05" numOctaves="2" seed="11" result="n"/>
+          <feDisplacementMap in="SourceGraphic" in2="n" scale="1.8" xChannelSelector="R" yChannelSelector="G"/>
+        </filter>
+      </defs>
+      <g filter="url(#branchInk)" stroke="#6B4E3A" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M214,3 C180,9 150,6 120,12 C98,16 82,13 62,19" fill="none" stroke-width="2.4"/>
+        <path d="M150,7 C144,2 138,0 132,1" fill="none" stroke-width="1.6"/>
+        <g class="komo-leaf" style="--o: 0s; transform-origin: 62px 19px">
+          <path d="M62,19 C54,22 50,31 52,39 C59,36 64,28 62,19 Z" fill="#9DBF8C" stroke-width="1.3"/>
+          <path d="M61,22 C58,28 55,32 53,37" fill="none" stroke-width="0.8" opacity=".6"/>
+        </g>
+        <g class="komo-leaf" style="--o: -1.2s; transform-origin: 92px 14px">
+          <path d="M92,14 C86,20 86,30 91,36 C96,30 97,20 92,14 Z" fill="#7FA672" stroke-width="1.3"/>
+          <path d="M92,17 L91,33" fill="none" stroke-width="0.8" opacity=".6"/>
+        </g>
+        <g class="komo-leaf" style="--o: -2.1s; transform-origin: 120px 12px">
+          <path d="M120,12 C128,15 132,24 130,31 C123,29 118,21 120,12 Z" fill="#C9D9A8" stroke-width="1.3"/>
+          <path d="M121,15 C124,21 127,25 129,29" fill="none" stroke-width="0.8" opacity=".6"/>
+        </g>
+        <!-- 垂掛的小橡實 -->
+        <g class="komo-leaf" style="--o: -0.6s; transform-origin: 106px 13px">
+          <path d="M106,13 L106,26" fill="none" stroke-width="1"/>
+          <path d="M100.5,29 C100.5,25.5 111.5,25.5 111.5,29 Z" fill="#8A6A50" stroke-width="1.2"/>
+          <path d="M101.5,29 C101.5,36 106,39 106,39 C106,39 110.5,36 110.5,29 Z" fill="#E6B86A" stroke-width="1.2"/>
+        </g>
+        <g class="komo-leaf" style="--o: -3s; transform-origin: 160px 6px">
+          <path d="M160,6 C153,10 151,19 154,26 C160,22 163,14 160,6 Z" fill="#9DBF8C" stroke-width="1.3"/>
+        </g>
+        <g class="komo-leaf" style="--o: -1.8s; transform-origin: 186px 4px">
+          <path d="M186,4 C192,9 193,18 189,24 C184,19 183,11 186,4 Z" fill="#E9C27A" stroke-width="1.3"/>
+        </g>
+      </g>
+    </svg>
+
+    <!-- 1. 頂部看板 -->
+    <header class="px-5 pb-2 flex-shrink-0 z-10" style="padding-top: calc(24px + env(safe-area-inset-top))">
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-3 min-w-0">
+          <button id="mascotBtn" aria-label="和小狸熊打招呼" class="w-[52px] h-[52px] flex-shrink-0 rounded-2xl bg-white/95 border-2 border-ghibli-moss/30 p-1 flex items-center justify-center shadow-xs relative overflow-hidden">
+            <svg id="mascotSvg" viewBox="0 0 64 64" class="w-11 h-11 mascot-breathe">
+              <ellipse cx="20" cy="20" rx="6.5" ry="6.5" fill="#C9986D" stroke="#2C221C" stroke-width="2"/>
+              <ellipse cx="20" cy="20" rx="3.5" ry="3.5" fill="#E8B896"/>
+              <ellipse cx="44" cy="20" rx="6.5" ry="6.5" fill="#C9986D" stroke="#2C221C" stroke-width="2"/>
+              <ellipse cx="44" cy="20" rx="3.5" ry="3.5" fill="#E8B896"/>
+              <ellipse cx="32" cy="38" rx="20" ry="18" fill="#DFB78E" stroke="#2C221C" stroke-width="2"/>
+              <ellipse cx="32" cy="42" rx="14" ry="12" fill="#FDF3E3"/>
+              <path d="M 23,34 Q 26,30 29,34" fill="none" stroke="#2C221C" stroke-width="2.2" stroke-linecap="round"/>
+              <path d="M 35,34 Q 38,30 41,34" fill="none" stroke="#2C221C" stroke-width="2.2" stroke-linecap="round"/>
+              <ellipse cx="32" cy="36.5" rx="2.5" ry="1.8" fill="#4A3B32"/>
+              <path d="M 32,38.3 Q 32,41 29.5,41.5 M 32,38.3 Q 32,41 34.5,41.5" fill="none" stroke="#4A3B32" stroke-width="1.8" stroke-linecap="round"/>
+              <ellipse cx="21" cy="38.5" rx="3.5" ry="2.2" fill="#EAA18E" opacity="0.8"/>
+              <ellipse cx="43" cy="38.5" rx="3.5" ry="2.2" fill="#EAA18E" opacity="0.8"/>
+              <ellipse cx="24" cy="48" rx="4" ry="3" fill="#C9986D" stroke="#2C221C" stroke-width="1.6"/>
+              <ellipse cx="40" cy="48" rx="4" ry="3" fill="#C9986D" stroke="#2C221C" stroke-width="1.6"/>
+              <g class="leaf-wiggle">
+                <path d="M 0,0 Q -8,-10 0,-14 Q 8,-10 0,0" fill="#5B8266" stroke="#2C221C" stroke-width="1.6"/>
+                <path d="M 0,-12 L 0,-2" stroke="#3E5C43" stroke-width="1.2"/>
+              </g>
+            </svg>
+          </button>
+
+          <div class="min-w-0">
+            <div class="flex items-center gap-1.5">
+              <h1 class="text-lg font-black font-round text-ghibli-woodDark tracking-tight">口袋之森</h1>
+              <span class="text-[10px] tracking-widest text-ghibli-moss font-extrabold uppercase opacity-80">Komorebi</span>
+            </div>
+            <p id="spiritQuote" class="text-[11px] text-ghibli-wood font-bold leading-snug">小狸熊微笑說：一步一步，腳步正變得踏實又輕快</p>
+          </div>
+        </div>
+
+        <button id="soundToggleBtn" aria-label="切換音效" class="w-9 h-9 flex-shrink-0 rounded-2xl bg-white/90 border border-ghibli-moss/30 text-ghibli-moss flex items-center justify-center shadow-xs ghibli-tap">
+          <svg id="soundIconOn" viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+            <path d="M15.5 8.5a5 5 0 0 1 0 7" />
+            <path d="M18.5 5.5a9 9 0 0 1 0 13" />
+          </svg>
+          <svg id="soundIconOff" viewBox="0 0 24 24" class="w-4 h-4 hidden" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="1" y1="1" x2="23" y2="23" />
+            <polygon points="11 5 6 9 2 9 2 15 6 15 11 19 11 5" />
+          </svg>
+        </button>
+      </div>
+
+      <!-- 總覽看板 -->
+      <div class="mt-3.5 bg-white/95 rounded-2xl p-3.5 border-2 border-ghibli-wood/15 shadow-sm flex items-center justify-between">
+        <div class="flex-1 pr-3 border-r border-ghibli-wood/10 min-w-0">
+          <div class="flex items-center gap-1.5 text-xs text-ghibli-moss font-bold">
+            <svg viewBox="0 0 16 16" class="w-3.5 h-3.5 fill-ghibli-leaf">
+              <path d="M8,15 C8,11 6,8 2,7 C2,12 5,14 8,15 Z" />
+              <path d="M8,15 C8,10 11,6 15,6 C15,11 11,14 8,15 Z" />
+            </svg>
+            <span>目前總存款</span>
+          </div>
+          <div class="mt-1 flex items-baseline gap-1">
+            <span class="text-xs text-ghibli-wood font-bold">NT$</span>
+            <span id="overviewTotalSaved" class="text-xl font-black font-round text-ghibli-woodDark tracking-tight truncate">0</span>
+          </div>
+        </div>
+        <div class="flex-1 pl-4 min-w-0">
+          <div class="flex items-center gap-1.5 text-xs text-ghibli-terracotta font-bold">
+            <svg viewBox="0 0 16 16" class="w-3.5 h-3.5" fill="none" stroke="#C86A4B" stroke-width="2" stroke-linecap="round">
+              <path d="M 2,14 C 5,10 9,5 14,2 C 12,7 8,11 4,14 Z" />
+            </svg>
+            <span>還剩總負債</span>
+          </div>
+          <div class="mt-1 flex items-baseline gap-1">
+            <span class="text-xs text-ghibli-wood font-bold">NT$</span>
+            <span id="overviewTotalDebt" class="text-xl font-black font-round text-ghibli-woodDark tracking-tight truncate">0</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- 2. 目標切換 -->
+    <div class="px-5 py-1.5 flex-shrink-0 z-10">
+      <div class="flex items-center justify-between mb-1.5 px-0.5">
+        <span class="text-[11px] font-bold text-ghibli-moss tracking-wider flex items-center gap-1">
+          <svg viewBox="0 0 16 16" class="w-3 h-3 fill-ghibli-wood">
+            <path d="M4,5 C4,3 12,3 12,5 L12,6 L4,6 Z" />
+            <path d="M5,6 C5,10 8,13 8,13 C8,13 11,10 11,6 Z" />
+            <line x1="8" y1="2" x2="8" y2="4" stroke="#4A3B32" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+          森林心願袋
+        </span>
+        <button id="openEditBtn" class="text-[11px] font-bold text-ghibli-wood hover:text-ghibli-moss flex items-center gap-1 ghibli-tap py-1 px-1">
+          <svg viewBox="0 0 24 24" class="w-3.5 h-3.5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 20h9" />
+            <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
+          </svg>
+          <span>設定目標</span>
+        </button>
+      </div>
+      <div id="targetTabContainer" class="flex gap-2" role="tablist"></div>
+    </div>
+
+    <!-- 3. 主舞台 -->
+    <main class="flex-1 overflow-y-auto px-5 py-1 no-scroll z-10 flex flex-col">
+      <div id="pouchCard" class="bg-white/95 rounded-3xl p-5 border-2 border-ghibli-moss/20 shadow-sm relative overflow-hidden transition-all duration-300"></div>
+
+      <div class="mt-3 bg-ghibli-paleLeaf/90 rounded-2xl p-3.5 border border-ghibli-moss/25">
+        <div class="flex items-center justify-between mb-2">
+          <span class="text-xs font-bold text-ghibli-moss flex items-center gap-1.5">
+            <!-- 小狐狸的手繪腳印：一前一後、蹦蹦跳跳 -->
+            <svg viewBox="0 0 24 24" class="w-5 h-5 overflow-visible" aria-hidden="true">
+              <defs>
+                <filter id="pawSketch" x="-20%" y="-20%" width="140%" height="140%">
+                  <feTurbulence type="fractalNoise" baseFrequency="0.35" numOctaves="2" seed="5" result="n"/>
+                  <feDisplacementMap in="SourceGraphic" in2="n" scale="0.9" xChannelSelector="R" yChannelSelector="G"/>
+                </filter>
+              </defs>
+              <g filter="url(#pawSketch)" stroke="#6B4E3A" stroke-width="0.95" stroke-linejoin="round">
+                <g transform="translate(6.6 16.4) rotate(-22) scale(1.02)" opacity=".6">
+                  <path d="M-3.2,1.3 C-3.4,-1.6 3.4,-1.6 3.2,1.3 C3,3.4 1.4,3.9 0,3.4 C-1.4,3.9 -3,3.4 -3.2,1.3 Z" fill="#F2B98A"/>
+                  <ellipse cx="-3.6" cy="-2.6" rx="1.15" ry="1.55" fill="#F6CBA3" transform="rotate(-18 -3.6 -2.6)"/>
+                  <ellipse cx="3.6" cy="-2.6" rx="1.15" ry="1.55" fill="#F6CBA3" transform="rotate(18 3.6 -2.6)"/>
+                  <ellipse cx="-1.25" cy="-4.9" rx="1.2" ry="1.7" fill="#F6CBA3"/>
+                  <ellipse cx="1.25" cy="-4.9" rx="1.2" ry="1.7" fill="#F6CBA3"/>
+                  <ellipse cx="-1" cy="0.6" rx="1" ry=".55" fill="#FFF6EC" stroke="none" opacity=".9"/>
+                </g>
+                <g transform="translate(16.6 8.2) rotate(16) scale(1.1)" opacity="1">
+                  <path d="M-3.2,1.3 C-3.4,-1.6 3.4,-1.6 3.2,1.3 C3,3.4 1.4,3.9 0,3.4 C-1.4,3.9 -3,3.4 -3.2,1.3 Z" fill="#F2B98A"/>
+                  <ellipse cx="-3.6" cy="-2.6" rx="1.15" ry="1.55" fill="#F6CBA3" transform="rotate(-18 -3.6 -2.6)"/>
+                  <ellipse cx="3.6" cy="-2.6" rx="1.15" ry="1.55" fill="#F6CBA3" transform="rotate(18 3.6 -2.6)"/>
+                  <ellipse cx="-1.25" cy="-4.9" rx="1.2" ry="1.7" fill="#F6CBA3"/>
+                  <ellipse cx="1.25" cy="-4.9" rx="1.2" ry="1.7" fill="#F6CBA3"/>
+                  <ellipse cx="-1" cy="0.6" rx="1" ry=".55" fill="#FFF6EC" stroke="none" opacity=".9"/>
+                </g>
+              </g>
+            </svg>
+            <span id="recentLogsTitle">林間足跡便簽</span>
+          </span>
+          <button id="viewHistoryBtn" class="text-[11px] text-ghibli-wood font-bold hover:underline ghibli-tap py-1 px-1">全部足跡 ›</button>
+        </div>
+        <div id="recentLogsContainer" class="space-y-1.5 text-xs"></div>
+      </div>
+
+      <div class="h-24 flex-shrink-0"></div>
+    </main>
+
+    <!-- 4. 底部主按鈕 -->
+    <div class="absolute safe-bottom inset-x-5 flex gap-2.5 z-20">
+      <button id="mainActionBtn" class="flex-1 py-3.5 px-4 rounded-2xl font-black font-round text-white shadow-lg flex items-center justify-center gap-2 ghibli-tap transition-all bg-ghibli-moss">
+        <svg viewBox="0 0 24 24" class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round">
+          <line x1="12" y1="5" x2="12" y2="19" />
+          <line x1="5" y1="12" x2="19" y2="12" />
+        </svg>
+        <span id="mainActionText">記一筆存錢</span>
+      </button>
+    </div>
+
+    <!-- Toast（可含「復原」） -->
+    <div id="toast" role="status" aria-live="polite" class="hidden absolute top-16 left-1/2 px-4 py-2.5 rounded-full bg-ghibli-woodDark text-white text-xs font-bold font-round shadow-2xl z-[60] pointer-events-none items-center gap-2 whitespace-nowrap" style="transform: translateX(-50%);">
+      <svg viewBox="0 0 16 16" class="w-3.5 h-3.5 fill-ghibli-sun flex-shrink-0">
+        <polygon points="8,0 10,6 16,8 10,10 8,16 6,10 0,8 6,6" />
+      </svg>
+      <span id="toastMsg"></span>
+      <button id="toastUndoBtn" class="hidden ml-1 pl-2.5 border-l border-white/25 text-ghibli-sun font-black pointer-events-auto">復原</button>
+    </div>
+
+    <!-- 5. 抽屜：記一筆 -->
+    <div id="sheetRecord" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div id="sheetRecordBody" role="dialog" aria-modal="true" aria-labelledby="recordTitle" class="sheet-body sheet-pad-bottom w-full max-w-[430px] bg-white rounded-t-[36px] p-6 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-moss/30">
+        <div class="flex items-center justify-between pb-3 border-b border-ghibli-wood/10">
+          <div class="min-w-0">
+            <h3 id="recordTitle" class="text-base font-extrabold font-round text-ghibli-woodDark">記一筆存錢</h3>
+            <p id="recordSub" class="text-xs text-ghibli-leaf font-bold mt-0.5 truncate"></p>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf hover:bg-ghibli-moss/20 flex items-center justify-center text-ghibli-woodDark ghibli-tap">
+            <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+
+        <form id="recordForm" class="mt-4 space-y-4" novalidate>
+          <div>
+            <div class="flex items-center justify-between mb-1.5">
+              <label for="inputAmount" class="text-xs font-bold text-ghibli-woodDark">輸入金額 (元)</label>
+              <button type="button" id="clearAmountBtn" class="text-[11px] font-bold text-ghibli-wood/70 hover:text-ghibli-wood">清除</button>
+            </div>
+            <div class="relative">
+              <span class="absolute left-3.5 top-1/2 -translate-y-1/2 text-sm font-bold text-ghibli-wood">NT$</span>
+              <input type="text" id="inputAmount" inputmode="numeric" autocomplete="off" placeholder="例如：10,000"
+                class="w-full pl-12 pr-4 py-3 rounded-2xl bg-ghibli-paleLeaf/60 border-2 border-ghibli-moss/25 focus:outline-none focus:border-ghibli-moss font-bold font-round text-ghibli-woodDark">
+            </div>
+
+            <!-- 快捷金額：點一下「加上」該金額，可連點累加 -->
+            <div class="flex gap-2 mt-2.5">
+              <button type="button" class="btn-chip flex-1 py-2 rounded-xl bg-ghibli-cream border border-ghibli-moss/30 text-xs font-bold text-ghibli-wood hover:bg-ghibli-paleLeaf ghibli-tap" data-val="1000">+1,000</button>
+              <button type="button" class="btn-chip flex-1 py-2 rounded-xl bg-ghibli-cream border border-ghibli-moss/30 text-xs font-bold text-ghibli-wood hover:bg-ghibli-paleLeaf ghibli-tap" data-val="5000">+5,000</button>
+              <button type="button" class="btn-chip flex-1 py-2 rounded-xl bg-ghibli-cream border border-ghibli-moss/30 text-xs font-bold text-ghibli-wood hover:bg-ghibli-paleLeaf ghibli-tap" data-val="10000">+10,000</button>
+              <button type="button" class="btn-chip flex-1 py-2 rounded-xl bg-ghibli-cream border border-ghibli-moss/30 text-xs font-bold text-ghibli-wood hover:bg-ghibli-paleLeaf ghibli-tap" data-val="50000">+50,000</button>
+            </div>
+
+            <!-- 記帳後預覽 -->
+            <p id="recordPreview" class="mt-2.5 text-[11px] font-bold text-ghibli-wood min-h-[16px]"></p>
+          </div>
+
+          <div>
+            <label for="inputNote" class="block text-xs font-bold text-ghibli-woodDark mb-1.5">紀錄備註 (可留空)</label>
+            <input type="text" id="inputNote" placeholder="例如：每月固定薪水存入" maxlength="30" autocomplete="off"
+              class="w-full px-3.5 py-2.5 rounded-xl bg-ghibli-paleLeaf/40 border border-ghibli-moss/20 focus:outline-none focus:border-ghibli-moss text-ghibli-woodDark font-bold">
+          </div>
+
+          <button type="submit" id="recordSubmitBtn" class="w-full py-3.5 rounded-2xl text-white font-black font-round text-sm tracking-wide shadow-md ghibli-tap">確認記帳</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- 6. 抽屜：設定目標 -->
+    <div id="sheetEdit" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div id="sheetEditBody" role="dialog" aria-modal="true" class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[85vh] overflow-y-auto bg-white rounded-t-[36px] p-6 pt-0 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-moss/30 no-scroll">
+        <div class="flex items-center justify-between pt-6 pb-3 border-b border-ghibli-wood/10 sticky top-0 bg-white z-10">
+          <div>
+            <h3 class="text-base font-extrabold font-round text-ghibli-woodDark">設定森林心願袋</h3>
+            <p class="text-xs text-ghibli-wood mt-0.5">專注當下最重要的三個人生心願</p>
+          </div>
+          <button type="button" data-close aria-label="關閉" class="w-8 h-8 rounded-full bg-ghibli-paleLeaf hover:bg-ghibli-moss/20 flex items-center justify-center text-ghibli-woodDark ghibli-tap">
+            <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+              <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+            </svg>
+          </button>
+        </div>
+        <div id="editCardsList" class="mt-4 space-y-4"></div>
+        <p id="editError" class="hidden mt-3 text-xs font-bold text-ghibli-terracotta"></p>
+        <button id="saveEditTargetsBtn" class="mt-5 w-full py-3.5 rounded-2xl bg-ghibli-moss hover:bg-ghibli-woodDark text-white font-black font-round text-sm shadow-md ghibli-tap">儲存目標設定</button>
+
+        <!-- 資料備份 -->
+        <div class="mt-6 p-4 rounded-2xl bg-ghibli-sunSoft/70 border border-ghibli-sun/30">
+          <div class="flex items-center justify-between">
+            <span class="text-xs font-black text-ghibli-woodDark font-round">資料備份</span>
+            <span id="lastBackupText" class="text-[10px] font-bold text-ghibli-wood/70"></span>
+          </div>
+          <p class="mt-1 text-[11px] leading-relaxed text-ghibli-wood">每一筆紀錄都會即時存在這支手機裡。換手機、清除瀏覽器資料前，記得先匯出一份備份檔。</p>
+          <div class="mt-3 flex gap-2">
+            <button id="exportBtn" class="flex-1 py-2.5 rounded-xl bg-white border border-ghibli-wood/20 text-xs font-bold text-ghibli-woodDark ghibli-tap">匯出備份</button>
+            <button id="importBtn" class="flex-1 py-2.5 rounded-xl bg-white border border-ghibli-wood/20 text-xs font-bold text-ghibli-woodDark ghibli-tap">匯入備份</button>
+            <input id="importFile" type="file" accept=".json,application/json" class="hidden">
+          </div>
+          <!-- 匯入前確認 -->
+          <div id="importConfirm" class="hidden mt-3 p-3 rounded-xl bg-white border border-ghibli-terracotta/30">
+            <p id="importSummary" class="text-[11px] font-bold text-ghibli-woodDark leading-relaxed"></p>
+            <div class="mt-2.5 flex gap-2">
+              <button id="importCancelBtn" class="flex-1 py-2 rounded-xl bg-ghibli-paleLeaf text-xs font-bold text-ghibli-wood ghibli-tap">取消</button>
+              <button id="importOkBtn" class="flex-1 py-2 rounded-xl bg-ghibli-terracotta text-xs font-bold text-white ghibli-tap">確定取代</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- 7. 抽屜：全部足跡 -->
+    <div id="sheetHistory" class="sheet fixed inset-0 bg-ghibli-woodDark/60 backdrop-blur-xs z-50 flex items-end justify-center opacity-0 pointer-events-none transition-opacity duration-300">
+      <div id="sheetHistoryBody" role="dialog" aria-modal="true" class="sheet-body sheet-pad-bottom w-full max-w-[430px] max-h-[78vh] overflow-y-auto bg-white rounded-t-[36px] p-6 pt-0 shadow-2xl transform translate-y-full transition-transform duration-300 border-t-2 border-ghibli-moss/30 no-scroll">
+        <div class="pt-6 pb-3 border-b border-ghibli-wood/10 sticky top-0 bg-white z-10">
+          <div class="flex items-center justify-between">
+            <div>
+              <h3 class="text-base font-extrabold font-round text-ghibli-woodDark">林間冒險足跡清單</h3>
+              <p class="text-xs text-ghibli-wood mt-0.5">記錯了？點紀錄右側的「刪除」，金額會自動扣回</p>
+            </div>
+            <button type="button" data-close aria-label="關閉" class="w-8 h-8 flex-shrink-0 rounded-full bg-ghibli-paleLeaf hover:bg-ghibli-moss/20 flex items-center justify-center text-ghibli-woodDark ghibli-tap">
+              <svg viewBox="0 0 24 24" class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round">
+                <line x1="18" y1="6" x2="6" y2="18" /><line x1="6" y1="6" x2="18" y2="18" />
+              </svg>
+            </button>
+          </div>
+          <!-- 篩選：全部 / 目前心願袋 -->
+          <div id="historyFilter" class="mt-3 flex gap-1.5 text-[11px] font-bold"></div>
+        </div>
+        <div id="fullHistoryContainer" class="mt-4 space-y-2 text-xs"></div>
+      </div>
+    </div>
+
+  </div>
+
+  <script>
+    // ---------- 0. 小工具 ----------
+    const $ = (id) => document.getElementById(id);
+
+    function escapeHtml(str) {
+      return String(str ?? '').replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+    }
+    function formatNumber(num) { return Number(num || 0).toLocaleString('zh-TW'); }
+    // 只接受整數元：去掉千分位/空白/NT$；有小數點時捨去小數（避免 1000.5 被誤讀成 10005）
+    function parseAmount(str) {
+      const clean = String(str ?? '').replace(/[０-９．]/g, c => String.fromCharCode(c.charCodeAt(0) - 0xFEE0)).replace(/[,，\s]/g, '').replace(/^NT\$/i, '');
+      const n = Math.floor(parseFloat(clean.replace(/[^\d.]/g, '')));
+      return Number.isFinite(n) && n > 0 ? Math.min(n, 999999999) : 0;
+    }
+    function store(key, fallback) {
+      try { const v = JSON.parse(localStorage.getItem(key)); return v ?? fallback; }
+      catch (e) { return fallback; }
+    }
+    function persist(key, value) {
+      try { localStorage.setItem(key, JSON.stringify(value)); return true; }
+      catch (e) {
+        if (!persist.warned) { persist.warned = true; setTimeout(() => showToast('這次沒能存進手機，請先匯出備份'), 0); }
+        return false;
+      }
+    }
+
+    // ---------- 1. 音效 ----------
+    class GhibliSound {
+      constructor() { this.ctx = null; this.muted = false; }
+      init() {
+        if (!this.ctx) {
+          const AC = window.AudioContext || window.webkitAudioContext;
+          if (!AC) return false;
+          this.ctx = new AC();
+        }
+        if (this.ctx.state === 'suspended') this.ctx.resume(); // iOS 需要在手勢內恢復
+        return true;
+      }
+      _arp(freqs, type, step, vol, decay) {
+        if (this.muted || !this.init()) return;
+        const now = this.ctx.currentTime;
+        freqs.forEach((freq, i) => {
+          const t = now + i * step;
+          const osc = this.ctx.createOscillator();
+          const gain = this.ctx.createGain();
+          osc.type = type;
+          osc.frequency.setValueAtTime(freq, t);
+          gain.gain.setValueAtTime(vol, t);
+          gain.gain.exponentialRampToValueAtTime(0.0001, t + decay);
+          osc.connect(gain); gain.connect(this.ctx.destination);
+          osc.start(t); osc.stop(t + decay + 0.05);
+        });
+      }
+      playSave()  { this._arp([523.25, 659.25, 783.99, 1046.5], 'sine', 0.055, 0.14, 0.65); }
+      playRepay() { this._arp([440, 554.37, 659.25, 880], 'triangle', 0.065, 0.12, 0.85); }
+      playGoal()  { this._arp([523.25, 659.25, 783.99, 1046.5, 1318.5, 1568], 'sine', 0.08, 0.13, 0.9); }
+      playTap()   { this._arp([440], 'sine', 0, 0.04, 0.045); }
+    }
+    const sound = new GhibliSound();
+
+    // ---------- 2. 資料 ----------
+    const KEY_TARGETS = 'komo_ghibli_tora_targets';
+    const KEY_LOGS = 'komo_ghibli_tora_logs';
+    const KEY_UI = 'komo_ghibli_tora_ui';
+
+    const DEFAULT_TARGETS = [
+      { id: 't-1', title: '買房頭期款 500 萬', type: 'savings', targetAmount: 5000000, currentAmount: 1850000 },
+      { id: 't-2', title: '結清就學貸款', type: 'debt', targetAmount: 400000, currentAmount: 220000 },
+      { id: 't-3', title: '日本自由行基金', type: 'savings', targetAmount: 120000, currentAmount: 84000 }
+    ];
+    const DEFAULT_LOGS = [
+      { id: 1, targetId: 't-2', targetTitle: '結清就學貸款', type: 'debt', amount: 20000, note: '5月份就學貸款扣繳', date: '5月12日' },
+      { id: 2, targetId: 't-1', targetTitle: '買房頭期款 500 萬', type: 'savings', amount: 40000, note: '發薪日固定存入頭期款', date: '5月5日' },
+      { id: 3, targetId: 't-3', targetTitle: '日本自由行基金', type: 'savings', amount: 12000, note: '專案結案獎金存入', date: '4月26日' }
+    ];
+
+    const SPIRIT_QUOTES = [
+      '小狸熊說：腳步正變得踏實又輕快，今天也做得很好！',
+      '小狸熊說：每一筆小小的存蓄，都是森林裡正在萌芽的橡實',
+      '小狸熊揉了揉小葉子：負擔像蒲公英一樣飄散了，整個人變好輕盈！',
+      '小狸熊說：不慌不忙，心願袋裡的微光正一天天變得更加明亮',
+      '小狸熊伸了個懶腰：慢慢來也沒關係，森林會等你的'
+    ];
+
+    const ui = store(KEY_UI, {});
+    let state = {
+      targets: store(KEY_TARGETS, DEFAULT_TARGETS),
+      logs: store(KEY_LOGS, DEFAULT_LOGS),
+      activeTargetIndex: Math.min(Number(ui.active) || 0, 2),
+      historyFilter: 'all'
+    };
+    if (!Array.isArray(state.targets) || state.targets.length === 0) state.targets = DEFAULT_TARGETS;
+    if (!Array.isArray(state.logs)) state.logs = [];
+    if (state.activeTargetIndex >= state.targets.length) state.activeTargetIndex = 0;
+    sound.muted = !!ui.muted;
+
+    function saveState() {
+      persist(KEY_TARGETS, state.targets);
+      persist(KEY_LOGS, state.logs);
+      persist(KEY_UI, { active: state.activeTargetIndex, muted: sound.muted });
+    }
+
+    // 進度計算集中一處：負債用 floor，避免「還剩 1,600 卻顯示 100%」
+    function progressOf(t) {
+      const goal = Number(t.targetAmount) || 0;
+      const cur = Number(t.currentAmount) || 0;
+      const raw = goal > 0 ? (cur / goal) * 100 : 0;
+      const percent = Math.min(100, Math.floor(raw));
+      return { goal, cur, gap: Math.max(0, goal - cur), percent, done: goal > 0 && cur >= goal };
+    }
+    function targetById(id) { return state.targets.find(t => t.id === id); }
+    function logTitle(log) { return targetById(log.targetId)?.title ?? log.targetTitle ?? '已移除的心願'; }
+
+    function logDateLabel(log) {
+      if (!log.ts) return log.date || '';
+      const d = new Date(log.ts);
+      const sameYear = d.getFullYear() === new Date().getFullYear();
+      return `${sameYear ? '' : d.getFullYear() + '年'}${d.getMonth() + 1}月${d.getDate()}日`;
+    }
+
+    // ---------- 3. 手繪水彩錢袋 ----------
+    // 設計：同一個亞麻小布袋，存錢＝暖陽蜂蜜色從袋底慢慢「暈」上來；
+    // 還款＝袋裡的灰藍霧氣慢慢沉下去，蒲公英絨毛從袋口飄走。
+    // 水位沒有硬邊，上緣以 16 單位漸層暈開，並緩緩晃動。
+    const BAG_BODY = 'M38,41 C24,49 16,65 19,85 C22,103 40,112 61,111 C82,110 99,101 101,83 C103,63 95,48 82,41 Z';
+    const BAG_TOP = 111, BAG_RANGE = 72;          // 袋內可填高度（y 由 111 往上到 39）
+    const lastPct = {};                             // 記住每個袋子上次的進度，用來做水位上升/下降動畫
+
+    function levelY(fillRatio) {                    // 回傳液面群組要平移到的 y
+      const r = Math.min(1, Math.max(0, fillRatio));
+      return BAG_TOP - r * BAG_RANGE - 10;          // -10：讓暈開的上緣剛好落在液面
+    }
+
+    function renderBag(type, percent) {
+      const isDebt = type === 'debt';
+      const p = Math.min(100, Math.max(0, percent));
+      const ink = '#6B4E3A';                        // 暖栗色墨線，取代原本的近黑色
+      const pal = isDebt
+        ? { a: '#7F93A3', b: '#A9B8C2', glow: '#DCE5EA', bead: '#C86A4B', cloth: '#F6F3EC' }
+        : { a: '#E09A3E', b: '#F2C46A', glow: '#FFF1C9', bead: '#E6A63E', cloth: '#FBF6EA' };
+
+      // 存錢：已存比例往上；還款：剩餘負債比例（隨還款下降）
+      const fill = isDebt ? (100 - p) / 100 : p / 100;
+
+      // 袋內小光點（存錢）
+      const motes = !isDebt ? [[44, 22, 0], [70, 30, 1.3], [57, 40, 2.4], [80, 18, 3.1]]
+        .slice(0, p >= 75 ? 4 : p >= 45 ? 3 : p >= 15 ? 2 : p > 0 ? 1 : 0)
+        .map(([x, y, d]) => `<circle class="bag-mote" cx="${x}" cy="${y}" r="1.8" fill="#FFFBEA" style="animation-delay:${d}s"/>`).join('') : '';
+
+      // 從袋口飄走的蒲公英絨毛（還款）
+      const fluff = (x, y, d, s) => `
+        <g transform="translate(${x},${y}) scale(${s})"><g class="bag-seed" style="animation-delay:${d}s">
+          <path d="M0,0 L0,7" stroke="${ink}" stroke-width="0.9" stroke-linecap="round"/>
+          ${[0, 45, 90, 135, 180, 225, 270, 315].map(a => `<path d="M0,0 L0,-4.5" stroke="#9AAF95" stroke-width="0.8" stroke-linecap="round" transform="rotate(${a})"/>`).join('')}
+          <circle r="1.1" fill="${ink}"/>
+        </g></g>`;
+      const seeds = isDebt ? [[58, 26, 0, 1], [64, 24, 1.6, 0.85], [54, 25, 3.0, 0.75]]
+        .slice(0, p >= 70 ? 3 : p >= 35 ? 2 : p >= 10 ? 1 : 0)
+        .map(s => fluff(...s)).join('') : '';
+
+      // 存錢袋口的小嫩芽：隨進度長大，100% 開一朵小花
+      const sproutScale = (0.45 + Math.min(1, p / 100) * 0.55).toFixed(2);
+      const sprout = !isDebt && p >= 10 ? `
+        <g transform="translate(61,24) scale(${sproutScale})"><g class="bag-sprout">
+          <path d="M0,0 C0,-5 0,-9 0,-13" stroke="#4E7A55" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <path d="M0,-8 C-3,-14 -11,-14 -11,-9 C-11,-5 -4,-5 0,-8 Z" fill="#7FA672" stroke="${ink}" stroke-width="1.1"/>
+          <path d="M0,-11 C3,-17 11,-17 11,-12 C11,-8 4,-8 0,-11 Z" fill="#9DBF8C" stroke="${ink}" stroke-width="1.1"/>
+          ${p >= 100 ? `<g transform="translate(0,-15)">${[0, 72, 144, 216, 288].map(a => `<ellipse rx="2" ry="3" cy="-2.6" fill="#FFD9E0" stroke="${ink}" stroke-width="0.6" transform="rotate(${a})"/>`).join('')}<circle r="1.6" fill="#E6A63E"/></g>` : ''}
+        </g></g>` : '';
+
+      // 結清負債時的小星光
+      const cleared = isDebt && p >= 100 ? `<g class="bag-twinkle"><path d="M60,72 L62,79 L69,81 L62,83 L60,90 L58,83 L51,81 L58,79 Z" fill="#F2C46A" stroke="${ink}" stroke-width="0.8"/></g>` : '';
+
+      return `
+        <svg viewBox="0 0 120 120" class="w-full h-full select-none overflow-visible" aria-hidden="true">
+          <defs>
+            <clipPath id="bagClip"><path d="${BAG_BODY}"/></clipPath>
+            <!-- 手繪抖動墨線 -->
+            <filter id="inkWobble" x="-5%" y="-5%" width="110%" height="110%">
+              <feTurbulence type="fractalNoise" baseFrequency="0.045" numOctaves="2" seed="7" result="n"/>
+              <feDisplacementMap in="SourceGraphic" in2="n" scale="2.2" xChannelSelector="R" yChannelSelector="G"/>
+            </filter>
+            <!-- 水彩暈染：邊緣不規則＋微微模糊 -->
+            <filter id="watercolor" x="-10%" y="-10%" width="120%" height="120%">
+              <feTurbulence type="fractalNoise" baseFrequency="0.03" numOctaves="3" seed="3" result="n"/>
+              <feDisplacementMap in="SourceGraphic" in2="n" scale="7" xChannelSelector="R" yChannelSelector="G" result="d"/>
+              <feGaussianBlur in="d" stdDeviation="1.1"/>
+            </filter>
+            <!-- 水位上緣柔和暈開（物件座標：上 0%→透明，約 16 單位後到飽和） -->
+            <linearGradient id="levelGrad" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="${pal.glow}" stop-opacity="0"/>
+              <stop offset="0.10" stop-color="${pal.glow}" stop-opacity="0.75"/>
+              <stop offset="0.24" stop-color="${pal.b}" stop-opacity="0.9"/>
+              <stop offset="0.75" stop-color="${pal.a}" stop-opacity="0.95"/>
+              <stop offset="1" stop-color="${pal.a}"/>
+            </linearGradient>
+            <radialGradient id="clothShade" cx="0.38" cy="0.35" r="0.75">
+              <stop offset="0" stop-color="#FFFFFF"/>
+              <stop offset="0.7" stop-color="${pal.cloth}"/>
+              <stop offset="1" stop-color="#E9DCC6"/>
+            </radialGradient>
+          </defs>
+
+          <!-- 地面柔影 -->
+          <ellipse cx="61" cy="113" rx="30" ry="4" fill="#B79C7E" opacity="0.28" style="filter: blur(1.5px)"/>
+
+          <g class="bag-sway">
+            <!-- 布袋本體（暖紙色＋柔光） -->
+            <path d="${BAG_BODY}" fill="url(#clothShade)"/>
+
+            <!-- 袋內水彩液面 -->
+            <g clip-path="url(#bagClip)">
+              <g class="bag-level" data-to="${levelY(fill).toFixed(1)}">
+                <g filter="url(#watercolor)">
+                  <path class="bag-wave-a" d="M-20,6 C0,0 20,10 40,5 C60,0 80,10 100,5 C120,0 140,10 160,5 L160,140 L-20,140 Z" fill="url(#levelGrad)"/>
+                  <path class="bag-wave-b" d="M-30,10 C-10,5 10,13 30,9 C50,5 70,13 90,9 C110,5 130,13 150,9 L150,140 L-30,140 Z" fill="${pal.a}" opacity="0.28"/>
+                </g>
+                ${motes}
+              </g>
+            </g>
+
+            <!-- 柔光高光（像布料被陽光照到） -->
+            <ellipse cx="42" cy="66" rx="7" ry="13" fill="#FFFFFF" opacity="0.35" transform="rotate(18 42 66)" style="filter: blur(2px)"/>
+
+            <!-- 手繪線稿（套用抖動濾鏡） -->
+            <g filter="url(#inkWobble)" fill="none" stroke="${ink}" stroke-linecap="round" stroke-linejoin="round">
+              <path d="${BAG_BODY}" stroke-width="2.3"/>
+              <!-- 荷葉袋口 -->
+              <path d="M40,42 C33,32 37,21 46,25 C50,16 58,15 62,22 C67,15 76,16 79,25 C87,21 91,32 82,42" fill="${pal.cloth}" stroke-width="2.1"/>
+              <path d="M50,26 C51,31 51,35 50,39 M69,25 C69,30 70,35 71,39" stroke-width="1" opacity="0.45"/>
+              <!-- 縫線 -->
+              <path d="M30,92 C42,103 78,104 91,92" stroke="#B89A7C" stroke-width="1.3" stroke-dasharray="2.5 3"/>
+              <path d="M27,58 C23,68 23,78 26,86" stroke="#B89A7C" stroke-width="1.1" stroke-dasharray="2.5 3" opacity="0.8"/>
+              <!-- 束口繩 -->
+              <path d="M37,42 C48,47 72,47 84,41" stroke-width="2.6"/>
+              <path d="M58,45 C54,50 50,55 49,62" stroke-width="1.8"/>
+              <path d="M63,45 C67,51 70,56 72,63" stroke-width="1.8"/>
+            </g>
+            <!-- 繩結木珠 -->
+            <circle cx="49" cy="64" r="2.6" fill="${pal.bead}" stroke="${ink}" stroke-width="1.1"/>
+            <circle cx="72" cy="65" r="2.6" fill="${pal.bead}" stroke="${ink}" stroke-width="1.1"/>
+            <circle cx="60.5" cy="45.5" r="3.4" fill="${pal.bead}" stroke="${ink}" stroke-width="1.3"/>
+            <circle cx="59.5" cy="44.5" r="1" fill="#FFFFFF" opacity="0.7"/>
+
+            <!-- 小補丁：存錢是小太陽、負債是小葉子 -->
+            <g transform="translate(78,86)" opacity="0.95">
+              ${isDebt
+                ? `<path d="M-5,4 C-6,-3 0,-7 6,-6 C6,0 2,5 -5,4 Z" fill="#CFE0C6" stroke="${ink}" stroke-width="1"/><path d="M-4,3 L4,-4" stroke="${ink}" stroke-width="0.7"/>`
+                : `<circle r="5" fill="#FBE3A8" stroke="${ink}" stroke-width="1"/><circle r="7.5" fill="none" stroke="#B89A7C" stroke-width="0.8" stroke-dasharray="1.5 2"/>`}
+            </g>
+
+            ${cleared}
+            ${sprout}
+          </g>
+
+          ${seeds}
+        </svg>`;
+    }
+
+    // 錢袋插入後，讓液面從上次位置平滑移動到新位置
+    function animateBagLevel(container, targetId, percent, isDebt) {
+      const level = container.querySelector('.bag-level');
+      if (!level) return;
+      const from = lastPct[targetId] ?? 0;          // 第一次看到這個袋子：從空袋慢慢注入
+      const fromY = levelY(isDebt ? (100 - from) / 100 : from / 100);
+      const toY = Number(level.dataset.to);
+      lastPct[targetId] = percent;
+      level.style.transition = 'none';
+      level.style.transform = `translateY(${fromY}px)`;
+      if (from === percent || window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+        level.style.transform = `translateY(${toY}px)`;
+        return;
+      }
+      requestAnimationFrame(() => requestAnimationFrame(() => {
+        level.style.transition = 'transform 1.6s cubic-bezier(0.22, 1, 0.36, 1)';
+        level.style.transform = `translateY(${toY}px)`;
+      }));
+    }
+
+    function bounceBag() {
+      const wrap = document.querySelector('#pouchCard .bag-wrap');
+      if (!wrap) return;
+      wrap.classList.remove('bag-bounce');
+      void wrap.offsetWidth;
+      wrap.classList.add('bag-bounce');
+    }
+
+    // ---------- 4. 渲染 ----------
+    function renderAll() {
+      renderOverview();
+      renderTabs();
+      renderCurrentCard();
+      renderMiniLogs();
+    }
+
+    function renderOverview() {
+      let totalSaved = 0, totalDebt = 0;
+      state.targets.forEach(t => {
+        const { cur, gap } = progressOf(t);
+        if (t.type === 'savings') totalSaved += cur; else totalDebt += gap;
+      });
+      $('overviewTotalSaved').textContent = formatNumber(totalSaved);
+      $('overviewTotalDebt').textContent = formatNumber(totalDebt);
+    }
+
+    function renderTabs() {
+      const container = $('targetTabContainer');
+      container.innerHTML = '';
+      state.targets.forEach((t, idx) => {
+        const isActive = idx === state.activeTargetIndex;
+        const isDebt = t.type === 'debt';
+        const { percent, done } = progressOf(t);
+        const btn = document.createElement('button');
+        btn.setAttribute('role', 'tab');
+        btn.setAttribute('aria-selected', String(isActive));
+        btn.className = `flex-1 min-w-0 py-2 px-2.5 rounded-2xl border-2 text-center transition ghibli-tap ${
+          isActive
+            ? (isDebt ? 'bg-ghibli-terraSoft border-ghibli-terracotta font-extrabold text-ghibli-terracotta shadow-xs' : 'bg-ghibli-paleLeaf border-ghibli-moss font-extrabold text-ghibli-moss shadow-xs')
+            : 'bg-white/85 border-ghibli-moss/20 text-ghibli-wood hover:bg-white'
+        }`;
+        // Tab 上直接看到每個心願的進度，不用逐一點開
+        btn.innerHTML = `
+          <div class="text-[10px] font-bold ${isActive ? (isDebt ? 'text-ghibli-terracotta' : 'text-ghibli-moss') : 'text-ghibli-wood/70'}">
+            ${isDebt ? '結清負債' : '存錢目標'} · ${done ? '完成' : percent + '%'}
+          </div>
+          <div class="text-xs truncate w-full mt-0.5 font-bold font-round">${escapeHtml(t.title)}</div>`;
+        btn.addEventListener('click', () => {
+          if (state.activeTargetIndex === idx) return;
+          sound.playTap();
+          state.activeTargetIndex = idx;
+          saveState();
+          renderAll();
+        });
+        container.appendChild(btn);
+      });
+    }
+
+    function renderCurrentCard() {
+      const current = state.targets[state.activeTargetIndex];
+      if (!current) return;
+      const card = $('pouchCard');
+      const actionBtn = $('mainActionBtn');
+      const isDebt = current.type === 'debt';
+      const { goal, cur, gap, percent, done } = progressOf(current);
+
+      const baseBtn = 'flex-1 py-3.5 px-4 rounded-2xl font-black font-round text-white shadow-lg flex items-center justify-center gap-2 ghibli-tap transition-all ';
+      actionBtn.className = baseBtn + (isDebt ? 'bg-ghibli-terracotta hover:opacity-95' : 'bg-ghibli-moss hover:bg-ghibli-moss/90');
+      $('mainActionText').textContent = isDebt ? (done ? '已全部結清' : '記一筆還款') : '記一筆存錢';
+      actionBtn.disabled = isDebt && done;   // 已結清的負債不能再記還款，避免已還金額超過原本負債
+
+      const rows = isDebt
+        ? [['原本負債', goal, ''], ['已還金額', cur, 'terracotta'], ['還剩負債', gap, 'total']]
+        : [['目標金額', goal, ''], ['目前已存', cur, 'moss'], ['還差金額', gap, 'total']];
+
+      const detailHtml = `
+        <div class="space-y-1.5">
+          ${rows.map(([label, val, kind]) => kind === 'total' ? `
+            <div class="pt-1.5 border-t border-ghibli-wood/10 flex items-baseline justify-between gap-2">
+              <span class="text-xs text-ghibli-woodDark font-black whitespace-nowrap">${label}</span>
+              <span class="text-base font-black font-round text-ghibli-woodDark truncate">NT$ ${formatNumber(val)}</span>
+            </div>` : `
+            <div class="flex items-baseline justify-between gap-2">
+              <span class="text-xs font-bold whitespace-nowrap ${kind ? 'text-ghibli-' + kind : 'text-ghibli-wood'}">${label}</span>
+              <span class="text-xs font-bold truncate ${kind ? 'font-extrabold text-ghibli-' + kind : 'text-ghibli-woodDark'}">NT$ ${formatNumber(val)}</span>
+            </div>`).join('')}
+        </div>`;
+
+      const msg = isDebt
+        ? (done ? '恭喜結清！整個袋子徹底明亮輕透！' : '每還一次款，負擔就像蒲公英羽毛輕輕飄走')
+        : (done ? '恭喜圓滿！心願袋已經盛滿金色晨光！' : '像森林裡的樹木，正在溫暖陽光下穩穩累積');
+
+      card.innerHTML = `
+        <div class="flex items-center justify-between gap-2">
+          <div class="flex items-center gap-2 min-w-0">
+            <span class="flex-shrink-0 text-[11px] font-extrabold px-2.5 py-0.5 rounded-full ${isDebt ? 'bg-ghibli-terraSoft text-ghibli-terracotta' : 'bg-ghibli-paleLeaf text-ghibli-moss'}">
+              ${isDebt ? '結清負債' : '存錢目標'}
+            </span>
+            <h2 class="text-base font-extrabold font-round text-ghibli-woodDark truncate">${escapeHtml(current.title)}</h2>
+          </div>
+          <span class="flex-shrink-0 text-xs font-black font-round ${isDebt ? 'text-ghibli-terracotta' : 'text-ghibli-moss'}">
+            ${isDebt ? '已減輕 ' : '已累積 '}${percent}%
+          </span>
+        </div>
+        <div class="my-4 flex items-center gap-4">
+          <div class="bag-wrap w-32 h-32 flex-shrink-0">${renderBag(current.type, percent)}</div>
+          <div class="flex-1 min-w-0">${detailHtml}</div>
+        </div>
+        <div class="w-full">
+          <div class="w-full h-3 bg-ghibli-paleLeaf rounded-full overflow-hidden p-0.5 border border-ghibli-moss/20" role="progressbar" aria-valuenow="${percent}" aria-valuemin="0" aria-valuemax="100">
+            <div class="h-full rounded-full transition-all duration-700 ease-out" style="width: ${percent === 0 ? 0 : Math.max(4, percent)}%; background: ${isDebt ? 'linear-gradient(90deg, #EBC2AE, #C86A4B)' : 'linear-gradient(90deg, #F2D58A, #E6A63E 55%, #5B8266)'}; box-shadow: 0 0 6px ${isDebt ? 'rgba(200,106,75,.35)' : 'rgba(230,166,62,.4)'}"></div>
+          </div>
+          <p class="text-[11px] text-ghibli-wood text-right mt-1.5 font-bold">${msg}</p>
+        </div>`;
+      animateBagLevel(card, current.id, percent, isDebt);
+    }
+
+    function logRowHtml(item, { compact }) {
+      const isDebt = item.type === 'debt';
+      const tag = `<span class="flex-shrink-0 text-[9px] px-1.5 py-px rounded font-extrabold ${isDebt ? 'bg-ghibli-terraSoft text-ghibli-terracotta' : 'bg-white text-ghibli-moss'}">${isDebt ? '還款' : '存錢'}</span>`;
+      const amount = `<span class="flex-shrink-0 font-extrabold font-round ${compact ? '' : 'text-sm'} ${isDebt ? 'text-ghibli-terracotta' : 'text-ghibli-moss'}">${isDebt ? '-' : '+'}NT$ ${formatNumber(item.amount)}</span>`;
+      if (compact) {
+        return `
+          <div class="flex items-center gap-2 min-w-0">
+            ${tag}
+            <span class="text-ghibli-woodDark font-bold truncate">${escapeHtml(item.note || logTitle(item))}</span>
+            <span class="flex-shrink-0 text-[10px] text-ghibli-wood">${escapeHtml(logDateLabel(item))}</span>
+          </div>${amount}`;
+      }
+      return `
+        <div class="min-w-0">
+          <div class="flex items-center gap-1.5 min-w-0">${tag}<span class="text-xs font-bold text-ghibli-woodDark truncate">${escapeHtml(logTitle(item))}</span></div>
+          <div class="text-[11px] text-ghibli-wood mt-0.5 truncate">${escapeHtml(item.note)}</div>
+          <div class="text-[10px] text-ghibli-wood/70 mt-0.5">${escapeHtml(logDateLabel(item))}</div>
+        </div>
+        <div class="flex flex-col items-end gap-1 flex-shrink-0">
+          ${amount}
+          <button class="del-btn text-[10px] font-bold text-ghibli-wood/60 hover:text-ghibli-terracotta px-1.5 py-0.5 rounded-md" data-id="${item.id}">刪除</button>
+        </div>`;
+    }
+
+    // 便簽只顯示「目前這個心願袋」的最近 3 筆，和上方卡片的焦點一致
+    function renderMiniLogs() {
+      const container = $('recentLogsContainer');
+      const current = state.targets[state.activeTargetIndex];
+      const logs = state.logs.filter(l => l.targetId === current?.id).slice(0, 3);
+      container.innerHTML = '';
+      if (logs.length === 0) {
+        container.innerHTML = `<div class="text-ghibli-wood text-center py-2 font-medium">這個心願袋還沒有足跡，記下第一筆吧</div>`;
+        return;
+      }
+      logs.forEach(item => {
+        const row = document.createElement('div');
+        row.className = 'flex items-center justify-between gap-2 py-1 border-b border-ghibli-moss/10 last:border-0';
+        row.innerHTML = logRowHtml(item, { compact: true });
+        container.appendChild(row);
+      });
+    }
+
+    // ---------- 5. 抽屜控制（點背景 / Esc 皆可關閉） ----------
+    let openSheetId = null;
+    function openSheet(sheetId) {
+      sound.playTap();
+      const sheet = $(sheetId);
+      sheet.classList.remove('opacity-0', 'pointer-events-none');
+      sheet.querySelector('.sheet-body').classList.remove('translate-y-full');
+      openSheetId = sheetId;
+    }
+    function closeSheet(sheetId = openSheetId) {
+      if (!sheetId) return;
+      const sheet = $(sheetId);
+      sheet.classList.add('opacity-0', 'pointer-events-none');
+      sheet.querySelector('.sheet-body').classList.add('translate-y-full');
+      if (document.activeElement) document.activeElement.blur();
+      openSheetId = null;
+    }
+    document.querySelectorAll('.sheet').forEach(sheet => {
+      sheet.addEventListener('click', (e) => { if (e.target === sheet) { sound.playTap(); closeSheet(sheet.id); } });
+      sheet.querySelectorAll('[data-close]').forEach(b => b.addEventListener('click', () => { sound.playTap(); closeSheet(sheet.id); }));
+    });
+    document.addEventListener('keydown', (e) => { if (e.key === 'Escape' && openSheetId) closeSheet(); });
+
+    // ---------- 6. 記一筆 ----------
+    const amountInput = $('inputAmount');
+
+    function currentAmountValue() { return parseAmount(amountInput.value); }
+
+    function setAmount(n) {
+      amountInput.value = n > 0 ? formatNumber(n) : '';
+      updateRecordPreview();
+    }
+
+    function updateRecordPreview() {
+      const current = state.targets[state.activeTargetIndex];
+      const amt = currentAmountValue();
+      const preview = $('recordPreview');
+      const submit = $('recordSubmitBtn');
+      const { goal, cur, gap } = progressOf(current);
+      const isDebt = current.type === 'debt';
+
+      if (!amt) {
+        preview.className = 'mt-2.5 text-[11px] font-bold text-ghibli-wood/70 min-h-[16px]';
+        preview.textContent = isDebt ? `目前還剩 NT$ ${formatNumber(gap)}` : `目前已存 NT$ ${formatNumber(cur)}，還差 NT$ ${formatNumber(gap)}`;
+        submit.disabled = true;
+        return;
+      }
+      if (isDebt && amt > gap) {
+        preview.className = 'mt-2.5 text-[11px] font-bold text-ghibli-terracotta min-h-[16px]';
+        preview.textContent = `超過還剩負債 NT$ ${formatNumber(gap)}，請確認金額`;
+        submit.disabled = true;
+        return;
+      }
+      const after = cur + amt;
+      const pct = goal > 0 ? Math.min(100, Math.floor((after / goal) * 100)) : 0;
+      preview.className = `mt-2.5 text-[11px] font-bold min-h-[16px] ${isDebt ? 'text-ghibli-terracotta' : 'text-ghibli-moss'}`;
+      preview.textContent = isDebt
+        ? `記下後 → 還剩 NT$ ${formatNumber(Math.max(0, goal - after))}（已減輕 ${pct}%）`
+        : `記下後 → 已存 NT$ ${formatNumber(after)}（達成 ${pct}%）`;
+      submit.disabled = false;
+    }
+
+    $('mainActionBtn').addEventListener('click', () => {
+      const current = state.targets[state.activeTargetIndex];
+      const isDebt = current.type === 'debt';
+      $('recordTitle').textContent = isDebt ? '記一筆還款' : '記一筆存錢';
+      $('recordSub').textContent = `目標：${current.title}`;
+      $('recordSubmitBtn').textContent = isDebt ? '確認還款' : '確認存入';
+      $('recordSubmitBtn').className = `w-full py-3.5 rounded-2xl text-white font-extrabold font-round text-sm tracking-wide shadow-md ghibli-tap ${isDebt ? 'bg-ghibli-terracotta hover:opacity-95' : 'bg-ghibli-moss hover:bg-ghibli-moss/90'}`;
+      $('inputNote').placeholder = isDebt ? '例如：本月分期還款' : '例如：每月固定薪水存入';
+      amountInput.value = '';
+      $('inputNote').value = '';
+      updateRecordPreview();
+      openSheet('sheetRecord');
+      amountInput.focus({ preventScroll: true }); // 打開就能直接輸入
+    });
+
+    // 輸入時即時加上千分位，大金額不易看錯位數
+    amountInput.addEventListener('input', () => {
+      const n = parseAmount(amountInput.value);
+      amountInput.value = n > 0 ? formatNumber(Math.min(n, 999999999)) : '';
+      updateRecordPreview();
+    });
+
+    // 快捷金額：累加（和按鈕上的「+」一致）
+    document.querySelectorAll('.btn-chip').forEach(btn => {
+      btn.addEventListener('click', () => {
+        sound.playTap();
+        setAmount(currentAmountValue() + Number(btn.dataset.val));
+      });
+    });
+    $('clearAmountBtn').addEventListener('click', () => { setAmount(0); amountInput.focus({ preventScroll: true }); });
+
+    $('recordForm').addEventListener('submit', (e) => {
+      e.preventDefault();
+      if ($('recordSubmitBtn').disabled) return;
+      const amt = currentAmountValue();
+      const current = state.targets[state.activeTargetIndex];
+      if (!amt || !current) return;
+
+      const wasDone = progressOf(current).done;
+      current.currentAmount = Number(current.currentAmount) + amt;
+      const nowDone = progressOf(current).done;
+      const isDebt = current.type === 'debt';
+
+      const now = new Date();
+      const log = {
+        id: Date.now(),
+        ts: now.getTime(),
+        targetId: current.id,
+        targetTitle: current.title,
+        type: current.type,
+        amount: amt,
+        note: $('inputNote').value.trim() || (isDebt ? '手動記錄還款' : '手動記錄存錢'),
+        date: `${now.getMonth() + 1}月${now.getDate()}日`
+      };
+      state.logs.unshift(log);
+
+      saveState();
+      renderAll();
+      closeSheet('sheetRecord');
+
+      if (!wasDone && nowDone) sound.playGoal(); else if (isDebt) sound.playRepay(); else sound.playSave();
+      hopMascot();
+      bounceBag();
+      $('spiritQuote').textContent = SPIRIT_QUOTES[Math.floor(Math.random() * SPIRIT_QUOTES.length)];
+
+      const text = (!wasDone && nowDone)
+        ? (isDebt ? '結清了！小狸熊開心得轉圈圈！' : '心願達成！金色晨光滿出來了！')
+        : (isDebt ? `負債減輕 NT$ ${formatNumber(amt)}` : `+NT$ ${formatNumber(amt)}，晨光又多了一點`);
+      showToast(text, { undo: () => deleteLog(log.id, { silent: true }) });
+    });
+
+    // ---------- 7. 刪除 / 復原 ----------
+    function deleteLog(id, { silent } = {}) {
+      const idx = state.logs.findIndex(l => String(l.id) === String(id));
+      if (idx < 0) return;
+      const log = state.logs[idx];
+      const t = targetById(log.targetId);
+      if (t) t.currentAmount = Math.max(0, Number(t.currentAmount) - Number(log.amount));
+      state.logs.splice(idx, 1);
+      saveState();
+      renderAll();
+      if (openSheetId === 'sheetHistory') renderFullHistory();
+      showToast(silent ? '已復原，就當沒發生過' : `已刪除，${t ? '金額已扣回' : '紀錄已移除'}`);
+    }
+
+    // ---------- Toast ----------
+    let toastTimer = null;
+    function showToast(msg, { undo } = {}) {
+      const toast = $('toast');
+      const undoBtn = $('toastUndoBtn');
+      const dur = undo ? 5000 : 2600;
+      clearTimeout(toastTimer);
+      $('toastMsg').textContent = msg;
+      undoBtn.classList.toggle('hidden', !undo);
+      undoBtn.onclick = undo ? () => { sound.playTap(); clearTimeout(toastTimer); toast.classList.add('hidden'); toast.classList.remove('flex'); undo(); } : null;
+
+      toast.classList.remove('hidden', 'toast-float');
+      toast.classList.add('flex');
+      toast.style.setProperty('--toast-dur', dur + 'ms');
+      void toast.offsetWidth; // 重新觸發動畫
+      toast.classList.add('toast-float');
+      toastTimer = setTimeout(() => { toast.classList.add('hidden'); toast.classList.remove('flex'); }, dur);
+    }
+
+    function hopMascot() {
+      const box = $('mascotBtn');
+      box.classList.remove('mascot-hop');
+      void box.offsetWidth;
+      box.classList.add('mascot-hop');
+    }
+    $('mascotBtn').addEventListener('click', () => {
+      sound.playTap();
+      hopMascot();
+      const q = $('spiritQuote');
+      let next;
+      do { next = SPIRIT_QUOTES[Math.floor(Math.random() * SPIRIT_QUOTES.length)]; } while (next === q.textContent && SPIRIT_QUOTES.length > 1);
+      q.textContent = next;
+    });
+
+    // ---------- 8. 設定目標 ----------
+    $('openEditBtn').addEventListener('click', () => {
+      renderEditCards();
+      $('editError').classList.add('hidden');
+      openSheet('sheetEdit');
+    });
+
+    function editLabels(isDebt) {
+      return isDebt ? ['原本負債總額', '已還款金額'] : ['目標金額', '目前已存'];
+    }
+
+    function renderEditCards() {
+      const container = $('editCardsList');
+      container.innerHTML = '';
+      state.targets.forEach((t, i) => {
+        const isDebt = t.type === 'debt';
+        const [l1, l2] = editLabels(isDebt);
+        const card = document.createElement('div');
+        card.className = 'p-4 rounded-2xl bg-ghibli-paleLeaf/60 border-2 border-ghibli-moss/20 space-y-3';
+        card.innerHTML = `
+          <div class="flex items-center justify-between pb-1 border-b border-ghibli-moss/15">
+            <span class="text-xs font-black text-ghibli-woodDark font-round">心願袋 0${i + 1}</span>
+            <select id="edit-type-${i}" class="font-bold rounded-xl border border-ghibli-moss/30 px-2 py-1 bg-white text-ghibli-woodDark" style="font-size:13px !important">
+              <option value="savings" ${!isDebt ? 'selected' : ''}>存錢目標</option>
+              <option value="debt" ${isDebt ? 'selected' : ''}>結清負債</option>
+            </select>
+          </div>
+          <div>
+            <label for="edit-title-${i}" class="block text-[11px] font-bold text-ghibli-wood mb-1">目標名稱</label>
+            <input type="text" id="edit-title-${i}" value="${escapeHtml(t.title)}" maxlength="18"
+              class="w-full px-3 py-1.5 rounded-xl border border-ghibli-moss/30 font-bold text-ghibli-woodDark bg-white">
+          </div>
+          <div class="grid grid-cols-2 gap-2">
+            <div>
+              <label id="edit-l1-${i}" for="edit-target-${i}" class="block text-[11px] font-bold text-ghibli-wood mb-1">${l1}</label>
+              <input type="text" inputmode="numeric" id="edit-target-${i}" value="${formatNumber(t.targetAmount)}"
+                class="edit-num w-full px-2.5 py-1.5 rounded-xl border border-ghibli-moss/30 text-ghibli-woodDark bg-white font-bold">
+            </div>
+            <div>
+              <label id="edit-l2-${i}" for="edit-curr-${i}" class="block text-[11px] font-bold text-ghibli-wood mb-1">${l2}</label>
+              <input type="text" inputmode="numeric" id="edit-curr-${i}" value="${formatNumber(t.currentAmount)}"
+                class="edit-num w-full px-2.5 py-1.5 rounded-xl border border-ghibli-moss/30 text-ghibli-woodDark bg-white font-bold">
+            </div>
+          </div>`;
+        container.appendChild(card);
+
+        // 切換類型時，欄位名稱同步改變
+        card.querySelector(`#edit-type-${i}`).addEventListener('change', (e) => {
+          const [a, b] = editLabels(e.target.value === 'debt');
+          $(`edit-l1-${i}`).textContent = a;
+          $(`edit-l2-${i}`).textContent = b;
+        });
+      });
+      container.querySelectorAll('.edit-num').forEach(inp => inp.addEventListener('input', () => {
+        const n = parseAmount(inp.value);
+        inp.value = inp.value.trim() === '' ? '' : formatNumber(n);
+      }));
+    }
+
+    $('saveEditTargetsBtn').addEventListener('click', () => {
+      const errorEl = $('editError');
+      const next = [];
+      for (let i = 0; i < state.targets.length; i++) {
+        const title = $(`edit-title-${i}`).value.trim();
+        const type = $(`edit-type-${i}`).value;
+        const goal = parseAmount($(`edit-target-${i}`).value);
+        const cur = parseAmount($(`edit-curr-${i}`).value);
+        if (!title) { errorEl.textContent = `心願袋 0${i + 1} 的名稱不能空白`; errorEl.classList.remove('hidden'); return; }
+        const curRaw = $(`edit-curr-${i}`).value.trim();
+        const fail = (m) => { errorEl.textContent = `心願袋 0${i + 1}：${m}`; errorEl.classList.remove('hidden'); };
+        if (!goal) return fail(type === 'debt' ? '原本負債總額需大於 0' : '目標金額需大於 0');
+        if (curRaw === '') return fail(type === 'debt' ? '請填入已還款金額（沒有就填 0）' : '請填入目前已存（沒有就填 0）');
+        if (type === 'debt' && cur > goal) return fail('已還款金額不能大於原本負債總額');
+        next.push({ title, type, targetAmount: goal, currentAmount: cur });
+      }
+      sound.playTap();
+      state.targets.forEach((t, i) => Object.assign(t, next[i]));
+      saveState();
+      renderAll();
+      closeSheet('sheetEdit');
+      showToast('心願目標已更新');
+    });
+
+    // ---------- 9. 全部足跡 ----------
+    $('viewHistoryBtn').addEventListener('click', () => {
+      state.historyFilter = 'current';
+      renderFullHistory();
+      openSheet('sheetHistory');
+    });
+
+    function renderHistoryFilter() {
+      const current = state.targets[state.activeTargetIndex];
+      const opts = [['current', current ? current.title : '目前'], ['all', '全部心願']];
+      const wrap = $('historyFilter');
+      wrap.innerHTML = '';
+      opts.forEach(([val, label]) => {
+        const b = document.createElement('button');
+        const on = state.historyFilter === val;
+        b.className = `max-w-[60%] truncate px-3 py-1 rounded-full border ghibli-tap ${on ? 'bg-ghibli-moss text-white border-ghibli-moss' : 'bg-white text-ghibli-wood border-ghibli-moss/30'}`;
+        b.textContent = label;
+        b.addEventListener('click', () => { sound.playTap(); state.historyFilter = val; renderFullHistory(); });
+        wrap.appendChild(b);
+      });
+    }
+
+    function renderFullHistory() {
+      renderHistoryFilter();
+      const container = $('fullHistoryContainer');
+      const current = state.targets[state.activeTargetIndex];
+      const logs = state.historyFilter === 'current' ? state.logs.filter(l => l.targetId === current?.id) : state.logs;
+      container.innerHTML = '';
+      if (logs.length === 0) {
+        container.innerHTML = `<div class="text-ghibli-wood text-center py-6 font-bold">尚無任何記帳紀錄</div>`;
+        return;
+      }
+      logs.forEach(log => {
+        const card = document.createElement('div');
+        card.className = 'p-3 rounded-2xl bg-ghibli-paleLeaf/50 border border-ghibli-moss/20 flex items-center justify-between gap-3';
+        card.innerHTML = logRowHtml(log, { compact: false });
+        container.appendChild(card);
+      });
+    }
+
+    // 刪除採「點兩下確認」，不跳系統對話框
+    $('fullHistoryContainer').addEventListener('click', (e) => {
+      const btn = e.target.closest('.del-btn');
+      if (!btn) return;
+      sound.playTap();
+      if (btn.dataset.armed) { deleteLog(btn.dataset.id); return; }
+      btn.dataset.armed = '1';
+      btn.textContent = '確定刪除？';
+      btn.classList.add('bg-ghibli-terraSoft', 'text-ghibli-terracotta');
+      setTimeout(() => {
+        if (!btn.isConnected) return;
+        delete btn.dataset.armed;
+        btn.textContent = '刪除';
+        btn.classList.remove('bg-ghibli-terraSoft', 'text-ghibli-terracotta');
+      }, 3000);
+    });
+
+    // ---------- 10. 音效開關 ----------
+    function renderSoundIcon() {
+      $('soundIconOn').classList.toggle('hidden', sound.muted);
+      $('soundIconOff').classList.toggle('hidden', !sound.muted);
+      $('soundToggleBtn').setAttribute('aria-pressed', String(!sound.muted));
+    }
+    $('soundToggleBtn').addEventListener('click', () => {
+      sound.muted = !sound.muted;
+      renderSoundIcon();
+      saveState();
+      if (!sound.muted) sound.playSave();
+    });
+
+    // ---------- 11. 匯出 / 匯入備份 ----------
+    function todayStamp(d = new Date()) {
+      return `${d.getFullYear()}${String(d.getMonth() + 1).padStart(2, '0')}${String(d.getDate()).padStart(2, '0')}`;
+    }
+    function renderLastBackup() {
+      const t = store(KEY_UI, {}).lastBackup;
+      $('lastBackupText').textContent = t ? `上次匯出：${new Date(t).getMonth() + 1}月${new Date(t).getDate()}日` : '尚未匯出過';
+    }
+    function markBackedUp() {
+      const u = store(KEY_UI, {}); u.lastBackup = Date.now(); persist(KEY_UI, u);
+      renderLastBackup();
+      showToast('備份檔已匯出，收好它喔');
+    }
+
+    $('exportBtn').addEventListener('click', async () => {
+      sound.playTap();
+      const data = { app: 'komorebi-pocket', version: 1, exportedAt: new Date().toISOString(), targets: state.targets, logs: state.logs };
+      const json = JSON.stringify(data, null, 2);
+      const name = `口袋之森備份-${todayStamp()}.json`;
+      const download = () => {
+        const url = URL.createObjectURL(new Blob([json], { type: 'application/json' }));
+        const a = Object.assign(document.createElement('a'), { href: url, download: name });
+        document.body.appendChild(a); a.click(); a.remove();
+        setTimeout(() => URL.revokeObjectURL(url), 1000);
+        markBackedUp();
+      };
+      // 手機上優先用系統分享面板（可直接存到「檔案」、LINE、雲端硬碟）
+      try {
+        const file = new File([json], name, { type: 'application/json' });
+        if (navigator.canShare && navigator.canShare({ files: [file] })) {
+          await navigator.share({ files: [file], title: '口袋之森備份' });
+          markBackedUp();
+          return;
+        }
+      } catch (e) {
+        if (e && e.name === 'AbortError') return;   // 使用者自己取消
+      }
+      download();
+    });
+
+    function sanitizeBackup(raw) {
+      if (!raw || typeof raw !== 'object') throw new Error('檔案格式不對');
+      if (!Array.isArray(raw.targets) || raw.targets.length < 1 || raw.targets.length > 3) throw new Error('找不到心願袋資料');
+      const targets = raw.targets.map((t, i) => {
+        const goal = Math.floor(Number(t.targetAmount)), cur = Math.floor(Number(t.currentAmount));
+        if (!(goal > 0) || !(cur >= 0)) throw new Error(`第 ${i + 1} 個心願袋金額有誤`);
+        return {
+          id: String(t.id || `t-${i + 1}`),
+          title: String(t.title || `心願 ${i + 1}`).slice(0, 18),
+          type: t.type === 'debt' ? 'debt' : 'savings',
+          targetAmount: goal,
+          currentAmount: cur
+        };
+      });
+      const logs = (Array.isArray(raw.logs) ? raw.logs : [])
+        .filter(l => l && Number(l.amount) > 0)
+        .map(l => ({
+          id: l.id ?? Date.now() + Math.random(),
+          ts: Number(l.ts) || undefined,
+          targetId: String(l.targetId ?? ''),
+          targetTitle: String(l.targetTitle ?? ''),
+          type: l.type === 'debt' ? 'debt' : 'savings',
+          amount: Math.floor(Number(l.amount)),
+          note: String(l.note ?? '').slice(0, 30),
+          date: String(l.date ?? '')
+        }));
+      return { targets, logs, exportedAt: raw.exportedAt };
+    }
+
+    let pendingImport = null;
+    $('importBtn').addEventListener('click', () => { sound.playTap(); $('importFile').value = ''; $('importFile').click(); });
+    $('importFile').addEventListener('change', async (e) => {
+      const file = e.target.files && e.target.files[0];
+      if (!file) return;
+      try {
+        pendingImport = sanitizeBackup(JSON.parse(await file.text()));
+        const when = pendingImport.exportedAt ? new Date(pendingImport.exportedAt) : null;
+        $('importSummary').textContent =
+          `這份備份${when && !isNaN(when) ? `（${when.getFullYear()}/${when.getMonth() + 1}/${when.getDate()} 匯出）` : ''}有 ${pendingImport.targets.length} 個心願袋、${pendingImport.logs.length} 筆足跡。` +
+          `匯入後會取代目前手機上的資料。`;
+        $('importConfirm').classList.remove('hidden');
+      } catch (err) {
+        pendingImport = null;
+        showToast(`無法匯入：${err.message && /[\u4e00-\u9fff]/.test(err.message) ? err.message : '這不是口袋之森的備份檔'}`);
+      }
+    });
+    $('importCancelBtn').addEventListener('click', () => { sound.playTap(); pendingImport = null; $('importConfirm').classList.add('hidden'); });
+    $('importOkBtn').addEventListener('click', () => {
+      if (!pendingImport) return;
+      const previous = { targets: state.targets, logs: state.logs, active: state.activeTargetIndex };
+      state.targets = pendingImport.targets;
+      state.logs = pendingImport.logs;
+      state.activeTargetIndex = 0;
+      Object.keys(lastPct).forEach(k => delete lastPct[k]);
+      pendingImport = null;
+      $('importConfirm').classList.add('hidden');
+      saveState();
+      renderAll();
+      closeSheet('sheetEdit');
+      sound.playSave();
+      showToast('備份已匯入', { undo: () => {
+        state.targets = previous.targets; state.logs = previous.logs; state.activeTargetIndex = previous.active;
+        saveState(); renderAll(); showToast('已還原成匯入前的資料');
+      } });
+    });
+    $('openEditBtn').addEventListener('click', () => { renderLastBackup(); $('importConfirm').classList.add('hidden'); });
+
+    // ---------- 12. 即時儲存的保險 ----------
+    // 同時開兩個視窗時，另一邊的變更即時同步過來
+    window.addEventListener('storage', (e) => {
+      if (![KEY_TARGETS, KEY_LOGS].includes(e.key)) return;
+      state.targets = store(KEY_TARGETS, state.targets);
+      state.logs = store(KEY_LOGS, state.logs);
+      if (state.activeTargetIndex >= state.targets.length) state.activeTargetIndex = 0;
+      renderAll();
+    });
+    // App 被切到背景或關閉前，再存一次
+    document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'hidden') saveState(); });
+    window.addEventListener('pagehide', saveState);
+    // 請瀏覽器把資料標記為「不要自動清除」
+    if (navigator.storage && navigator.storage.persist) navigator.storage.persist().catch(() => {});
+    // 離線也能開啟（需透過 https 網址開啟才會啟用）
+    if ('serviceWorker' in navigator && location.protocol === 'https:') {
+      window.addEventListener('load', () => navigator.serviceWorker.register('sw.js').catch(() => {}));
+    }
+
+    renderSoundIcon();
+    renderAll();
+  </script>
+</body>
+</html>
